@@ -1,0 +1,92 @@
+baseURL = 'https://digital-lotsen-andernach.de'
+languageCode = 'de-de'
+title = 'Digital Lotsen Andernach'
+theme = "lightbi-hugo"
+
+DefaultContentLanguage = "de"
+
+pygmentsStyle = "trac"
+#pygmentsUseClasses = true
+#pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+enableRobotsTXT = true
+enableGitInfo = false
+Paginate = 6
+
+[Params]
+selfHosted = true
+mainSections = ["post","posts"]
+#dateFormat = "2 January 2023"
+comments = false
+readingTime = false
+wordCount = false
+useHLJS = true
+socialShare = false
+delayDisqus = true
+showRelatedPosts = false
+summaryLength  = "9"
+gcse = false
+lastmod = false
+rss = false
+pagination = "10"
+hideAuthor = true
+#authorInfo = "She was born to be free, let her run wild in her own way and you will never lose her."
+description="Your can add your website description here."
+previewCardImagePlacement = "bottom"
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[Author]
+  Params.Author.name = "Marcel Klaes"
+  #name = "Marcel Klaes"
+  #website = "https://binovarghese.com/"
+  Params.Author.Email = "sample@gmail.com"
+  #facebook = "username"
+  #instagram = "username"
+  #youtube = "user/username" # or channel/channelname
+  #twitter = "username"
+  #threads = "username"
+  #linkedin = "username"
+  #github = "username"
+  #gitlab = "username"
+  #bitbucket = "username"
+  #reddit = "username"
+  #xing = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  #telegram = "username"
+  #500px = "username"
+  #codepen = "username"
+  #mastodon = "url"
+  #kaggle = "username"
+  #weibo = "username"
+  #slack = "username"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Förderung"
+    url = "/foerderung/"
+    weight = 2
+
+[[menu.main]]
+    name = "Impressum"
+    url = "/impressum/"
+    weight = 3
